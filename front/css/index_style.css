@@ -199,6 +199,71 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 60px;
 }
 
+.profile {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.profile__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile__avatar {
+    padding: 15px 0;
+}
+
+.profile__avatar img {
+    width: 180px;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.profile__avatar-change {
+    margin: 20px 0;
+}
+
+.profile__avatar-change a {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.profile__avatar-edit {
+    margin: 20px 0;
+}
+
+.profile__avatar-edit a {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.profile__avatar-change a:hover {
+    color: #bab5b5;
+}
+
+.profile__avatar-edit a:hover {
+    color: #bab5b5
+}
+
+.profile__data {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.profile__data tr {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.profile__data td {
+    padding: 15px 20px;
+}
+
 
 .footer {
     
