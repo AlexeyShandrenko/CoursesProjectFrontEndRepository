@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome_student__items {
-    width: 1000px;
+    width: 1200px;
     padding: 40px 10px;
     position: absolute;
     top: 50%;
@@ -197,6 +197,27 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: #1a1a1a;
     margin-bottom: 60px;
+}
+
+.welcome_student__button {
+    margin: 30px auto 0 auto;
+    width: 250px;
+    padding: 20px 0;
+    background-color: #db8b00;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.welcome_student__button:hover {
+    width: 280px;
+}
+
+.welcome_student__button a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .profile {
