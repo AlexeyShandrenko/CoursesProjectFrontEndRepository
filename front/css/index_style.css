@@ -397,6 +397,61 @@ textarea:focus {
     color: #707070;
 }
 
+.courses {
+    margin: 50px 0;
+}
+
+.courses__title {
+    font-size: 44px;
+    color: #6169e8;
+    font-weight: 900;
+    letter-spacing: 8px;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+
+.courses__block {
+}
+
+.courses__list {
+}
+
+.courses__element {
+    width: 70%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px auto;
+
+}
+
+.courses__element-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses__element-content-img img {
+    width: 70px;
+    height: 70px;
+}
+
+.courses__element-content-description {
+    padding: 0 10px;
+}
+
+.courses__element-content-description-name {
+    font-size: 16px;
+    color: #6169e8;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.courses__element-content-description-info {
+    font-size: 14px;
+}
+
+.courses__element-content {}
+
 .footer {
     
 }

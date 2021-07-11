@@ -21,9 +21,6 @@
 
     <div class="content">
 
-        <div class="slider">
-            <div class="outer">
-
                 <div class="header">
                     <div class="container">
                         <div class="header__row">
@@ -43,60 +40,21 @@
                     </div>
                 </div>
 
-                <div class="welcome_student">
+
+                <div class="create-course">
                     <div class="container">
-                        <div class="welcome_student__items">
-                            <div class="title">PROFILE</div>
-                            <div class="description">All info about you is here. You can edit your personal data!</div>
-                        </div>
+                        <div class="title">EDIT PROFILE</div>
+                    </div>
+                    <div class="create-course-form">
+                            <form class="create-course-form__box" action="" method="">
+                                <input type="text" name="firstname" placeholder="New Firstname">
+                                <input type="text" name="lastname" placeholder="New Lastname">
+                                <input type="submit" value="Accept">
+                            </form>
                     </div>
                 </div>
 
-            </div>
-        </div>
-
-        <div class="profile">
-            <div class="container">
-
-                <div class="profile__row">
                 
-                    <div class="profile__avatar">
-                        <img src="" alt="">
-                        <div class="profile__avatar-change">
-                            <a href="">Change Avatar</a>
-                        </div>
-                        <div class="profile__avatar-edit">
-                            <a href="">Edit Profile</a>
-                        </div>
-                    </div>
-                
-                    <table class="profile__data">
-
-                        <tr>
-                            <td>Firstname:</td>
-                            <td><%=user.get().getUser_name()%></td>
-                        </tr>
-
-                        <tr>
-                            <td>Lastname:</td>
-                            <td><%=user.get().getUser_name()%></td>
-                        </tr>
-
-                        <tr>
-                            <td>EMail:</td>
-                            <td><%=user.get().getUser_email()%></td>
-                        </tr>
-
-                        <tr>
-                            <td>Age:</td>
-                            <td><%=user.get().getUser_age()%></td>
-                        </tr>
-
-                    </table>
-                </div>
-
-            </div>
-        </div>
     </div>    
 
     <footer class="footer">

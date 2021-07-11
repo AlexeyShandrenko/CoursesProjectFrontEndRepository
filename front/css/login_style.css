@@ -152,7 +152,8 @@ body {
 .registration__box input[type = "text"],
 .registration__box input[type = "email"],
 .registration__box input[type = "password"],
-.registration__box input[type = "number"] {
+.registration__box input[type = "number"],
+.registration__box input[type = "tel"] {
     background: none;
     display: block;
     margin: 12px auto;
@@ -213,7 +214,8 @@ body {
 .registration__box input[type = "text"]:focus,
 .registration__box input[type = "email"]:focus,
 .registration__box input[type = "password"]:focus,
-.registration__box input[type = "number"]:focus {
+.registration__box input[type = "number"]:focus,
+.registration__box input[type = "tel"]:focus {
     width: 280px;
     background-color: none;
     color: #242424;
