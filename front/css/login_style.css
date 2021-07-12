@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 
 body {
-    
+
 }
 
 .wrapper {
@@ -153,7 +153,8 @@ body {
 .registration__box input[type = "email"],
 .registration__box input[type = "password"],
 .registration__box input[type = "number"],
-.registration__box input[type = "tel"] {
+.registration__box input[type = "tel"],
+.registration__box input[type = "date"] {
     background: none;
     display: block;
     margin: 12px auto;
@@ -206,7 +207,7 @@ body {
     background: #db8b00;
     color: #fff;
 }
- 
+
 .form_radio_group label:hover {
     color: #707070;
 }
@@ -215,7 +216,8 @@ body {
 .registration__box input[type = "email"]:focus,
 .registration__box input[type = "password"]:focus,
 .registration__box input[type = "number"]:focus,
-.registration__box input[type = "tel"]:focus {
+.registration__box input[type = "tel"]:focus,
+.registration__box input[type = "date"]:focus {
     width: 280px;
     background-color: none;
     color: #242424;

@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .create-course-form__box input[type="text"]:focus {
     border: 1.55px solid #db8b00;
-}    
+}
 
 
 .create-course-form__box input[type = "submit"] {
@@ -392,7 +392,7 @@ textarea:focus {
     background: #db8b00;
     color: #fff;
 }
- 
+
 .form_radio_group label:hover {
     color: #707070;
 }
@@ -450,10 +450,11 @@ textarea:focus {
     font-size: 14px;
 }
 
-.courses__element-content {}
+.courses__element-content {
+}
 
 .footer {
-    
+
 }
 
 .first-footer {
