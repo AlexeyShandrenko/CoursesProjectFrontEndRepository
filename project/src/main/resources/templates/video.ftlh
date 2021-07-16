@@ -23,9 +23,6 @@
 
     <div class="content">
 
-        <div class="slider">
-            <div class="outer">
-
                 <div class="header">
                     <div class="container">
                         <div class="header__row">
@@ -45,88 +42,8 @@
                     </div>
                 </div>
 
-                <div class="welcome_student">
-                    <div class="container">
-                        <div class="welcome_student__items">
-                            <div class="title">SUBJECT NAME</div>
-                            <div class="description">Subject Info</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
         <div class="courses">
             <p class="courses__title">Video</p>
-            <div class="courses__block">
-                <ul class="courses__list">
-                    <li class="courses__element">
-                        <a href="/video">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Video Name
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="courses">
-            <p class="courses__title">Tasks</p>
-            <div class="courses__block">
-                <ul class="courses__list">
-                    <li class="courses__element">
-                        <a href="/task">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Task Name
-                                    </p>
-                                    <p class="courses__element-content-description-info">
-                                        Task Instruction
-                                    </p>
-                                    <p class="courses__element-content-description-deadline">
-                                        Task Deadline
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="courses">
-            <p class="courses__title">Test</p>
-            <div class="courses__block">
-                <ul class="courses__list">
-                    <li class="courses__element">
-                        <a href="/task">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Test Name
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
 
 
