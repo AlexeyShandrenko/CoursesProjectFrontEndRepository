@@ -23,16 +23,16 @@
     <div class="slider">
         <div class="outer">
             <div class="registration">
-                <form class="registration__box" action="" method="">
+                <form id="regform" class="registration__box" action="/sign_up" method="post">
                     <!-- <a href="base_page.html"><img src="../img/car.png" alt="" class="registration__img"></a> -->
                     <h1 class="registration__title">Sign Up</h1>
-                    <input type="text" name="firstname" placeholder="Firstname">
-                    <input type="text" name="lastname" placeholder="Lastname">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="tel" name="phone" placeholder="Phone">
-                    <input type="date" name="birth" placeholder="Birth">
-                    <input type="password" name="password" placeholder="Password">
-                    <input type="password" name="password_repeat" placeholder="Password Repeat">
+                    <input id="firstname" type="text" name="firstname" placeholder="Firstname">
+                    <input id="lastname" type="text" name="lastname" placeholder="Lastname">
+                    <input id="email" type="email" name="email" placeholder="Email">
+                    <input id="phone" type="tel" name="phone" placeholder="Phone">
+                    <input id="birth" type="date" name="birth" placeholder="Birth">
+                    <input id="password" type="password" name="password" placeholder="Password">
+                    <input id="password_repeat" type="password" name="password_repeat" placeholder="Password Repeat">
                     <div class="form_radio_group">
                         <div class="form-radio_group__item form-radio_group__item-first">
                             <input id="radio-1" type="radio" name="role" value="teacher" checked>
@@ -51,6 +51,9 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../js/reg_script.js"></script>
 
 </body>
 

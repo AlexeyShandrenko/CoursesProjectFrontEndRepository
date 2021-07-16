@@ -23,11 +23,11 @@
     <div class="slider">
         <div class="outer">
             <div class="registration">
-                <form class="registration__box" action="" method="">
+                <form  id="logform" class="registration__box" action="" method="">
                     <!-- <a href="base_page.html"><img src="../img/car.png" alt="" class="registration__img"></a> -->
                     <h1 class="registration__title">Sign In</h1>
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="password" name="password" placeholder="Password">
+                    <input id="email" type="email" name="email" placeholder="Email">
+                    <input id="password" type="password" name="password" placeholder="Password">
                     <a href="" class=""><input type="submit" value="Enter"></a>
                     <div class="sign-up"> Don't have an account? <a href="registration.html" class="sign-up__link">Create
                             New!</a></div>
@@ -37,6 +37,9 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../js/login_script.js"></script>
 
 </body>
 

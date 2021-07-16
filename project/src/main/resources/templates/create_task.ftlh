@@ -48,10 +48,10 @@
                 <div class="title">CREATE TASK</div>
             </div>
             <div class="create-course-form">
-                <form class="create-course-form__box" action="" method="">
-                    <input type="text" name="title" placeholder="Task Name">
-                    <input type="date" name="deadline" placeholder="Deadline">
-                    <textarea class="create-course-form__info" name="info" placeholder="Task Instruction"></textarea>
+                <form id="createtaskform" class="create-course-form__box" action="/create_task" method="post">
+                    <input id="title" type="text" name="title" placeholder="Task Name">
+                    <input id="deadline" type="date" name="deadline" placeholder="Deadline">
+                    <textarea id="info" class="create-course-form__info" name="info" placeholder="Task Instruction"></textarea>
                     <input type="submit" value="Create">
                 </form>
             </div>
@@ -96,6 +96,9 @@
     </footer>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../js/create_task_script.js"></script>
 
 </body>
 

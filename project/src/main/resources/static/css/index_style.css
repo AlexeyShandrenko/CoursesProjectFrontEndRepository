@@ -471,19 +471,50 @@ textarea:focus {
     text-align: center;
 }
 
-.task__description {
-    margin: 25px 0;
+.task__container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.task__description-name {}
+.task__description {
+    margin: 50px 0;
+}
 
-.task__description-deadline {}
+.task__description-name {
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 600;
+    padding: 10px 0;
+}
 
-.task__description-instruction {}
+.task__description-deadline {
+    font-size: 16px;
+    color: #b03f3f;
+    padding: 10px 0;
+}
 
-.task__description-my-work {}
+.task__description-instruction {
+    font-size: 16px;
+    color: #1a1a1a;
+    padding: 10px 0;
+    font-weight: 500;
+}
 
-.task__submit {}
+.task__description-my-work {
+    font-size: 13px;
+    color: #1a1a1a;
+    padding: 10px 0;
+}
+
+.task__submit {
+    padding: 10px 0;
+    background-color: #db8b00;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
 
 .task__button {}
 

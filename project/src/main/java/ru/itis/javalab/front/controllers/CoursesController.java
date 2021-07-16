@@ -26,4 +26,14 @@ public class CoursesController {
         return "create_task";
     }
 
+    @GetMapping("/task")
+    public String getTaskPage() {
+        return "task";
+    }
+
+    @GetMapping("/create_subject")
+    public String getCreateSubjectPage() {
+        return "create_subject";
+    }
+
 }

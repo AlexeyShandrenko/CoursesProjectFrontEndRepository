@@ -42,56 +42,26 @@
             </div>
         </div>
 
-
-        <div class="create-course">
+        <div class="task">
             <div class="container">
-                <div class="title">CREATE COURSE</div>
-            </div>
-            <div class="create-course-form">
-                <form id="createcourseform" class="create-course-form__box" action="/create_course" method="post">
-                    <input id="title" type="text" name="title" placeholder="Сourse Name">
-                    <textarea id="info" class="create-course-form__info" name="info" placeholder="Course Info"></textarea>
-                    <div class="form_radio_group">
-                        <div class="form-radio_group__item form-radio_group__item-first">
-                            <input id="radio-1" type="radio" name="role" value="teacher" checked>
-                            <label for="radio-1">Practice</label>
-                        </div>
-                        <div class="form-radio_group__item form-radio_group__item-last">
-                            <input id="radio-2" type="radio" name="role" value="curator">
-                            <label for="radio-2">Course</label>
-                        </div>
-                    </div>
-                    <input type="submit" value="Create">
-                </form>
-            </div>
-        </div>
-
-
-        <!-- <div class="welcome_student">
-            <div class="container">
-                <div class="welcome_student__items">
-                    <div class="title">CREATE COURSE</div>
-                </div>
-
-                <div class="create-course-form">
-                    <form class="create-course-form__box" action="" method="">
-                        <input type="text" name="title" placeholder="Сourse Name">
-                        <textarea class="create-course-form__info" name="info" placeholder="Course Info"></textarea>
-                        <div class="form_radio_group">
-                            <div class="form-radio_group__item form-radio_group__item-first">
-                                <input id="radio-1" type="radio" name="role" value="teacher" checked>
-                                <label for="radio-1">Public</label>
-                            </div>
-                        <div class="form-radio_group__item">
-                            <input id="radio-2" type="radio" name="role" value="curator">
-                            <label for="radio-2">Private</label>
-                        </div>
-                        </div>
+                <div class="task__name">TASK</div>
+                <div class="task__description">
+                    <div class="task__description-name">Task Name</div>
+                    <div class="task__description-deadline">Deadline is *Task Deadline*</div>
+                    <div class="task__description-instruction">Task Instruction</div>
+                    <div class="task__description-my-work">My Work</div>
+                    <form id="myform" action="/send_task" method="post">
+                        <input id="fileinput" type="file">
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
-
+                <div class="task__submit">
+                    <div class="task__button">
+                        <a href="" class="task__button-content"></a>
+                    </div>
+                </div>
             </div>
-        </div> -->
+        </div>
 
 
     </div>
@@ -134,7 +104,8 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="../js/create_course_script.js"></script>
+<script src="../js/task_script.js"></script>
+
 
 </body>
 

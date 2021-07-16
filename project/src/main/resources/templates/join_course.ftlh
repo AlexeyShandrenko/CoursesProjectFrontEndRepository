@@ -49,9 +49,8 @@
                 <div class="description">Enter code to join to the course.</div>
             </div>
             <div class="create-course-form">
-                <form class="create-course-form__box" action="" method="">
-                    <input type="text" name="title" placeholder="Enter Code">
-
+                <form id="joincourseform" class="create-course-form__box" action="/join_course" method="post">
+                    <input id="code" type="text" name="title" placeholder="Enter Code">
                     <input type="submit" value="Join">
                 </form>
             </div>
@@ -123,6 +122,9 @@
     </footer>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../js/join_course_script.js"></script>
 
 </body>
 
