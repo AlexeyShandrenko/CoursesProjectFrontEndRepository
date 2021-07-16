@@ -8,7 +8,12 @@ public class CoursesController {
 
     @GetMapping("/courses")
     public String getCoursesPage() {
-        return "courses-teacher";
+        return "courses-student";
+    }
+
+    @GetMapping("/course")
+    public String getCoursePage() {
+        return "course";
     }
 
     @GetMapping("/create_course")
@@ -31,9 +36,19 @@ public class CoursesController {
         return "task";
     }
 
+    @GetMapping("/my_tasks")
+    public String getMyTaskPage() {
+        return "my_tasks";
+    }
+
     @GetMapping("/create_subject")
     public String getCreateSubjectPage() {
         return "create_subject";
+    }
+
+    @GetMapping("/subject")
+    public String getSubjectPage() {
+        return "subject";
     }
 
 }

@@ -23,15 +23,15 @@
     <div class="slider">
         <div class="outer">
             <div class="registration">
-                <form  id="logform" class="registration__box" action="" method="">
+                <form  id="logform" class="registration__box" action="/login" method="post">
                     <!-- <a href="base_page.html"><img src="../img/car.png" alt="" class="registration__img"></a> -->
                     <h1 class="registration__title">Sign In</h1>
                     <input id="email" type="email" name="email" placeholder="Email">
                     <input id="password" type="password" name="password" placeholder="Password">
                     <a href="" class=""><input type="submit" value="Enter"></a>
-                    <div class="sign-up"> Don't have an account? <a href="registration.html" class="sign-up__link">Create
+                    <div class="sign-up"> Don't have an account? <a href="/sign_up" class="sign-up__link">Create
                             New!</a></div>
-                    <div class="sign-up">Enter like <a href="#" class="sign-up__link">Anonymous!</a></div>
+                    <div class="sign-up">Enter like <a href="/main_page" class="sign-up__link">Anonymous!</a></div>
                 </form>
             </div>
         </div>

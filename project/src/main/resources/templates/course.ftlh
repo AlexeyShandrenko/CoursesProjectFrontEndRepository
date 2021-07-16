@@ -23,37 +23,64 @@
 
     <div class="content">
 
-        <div class="header">
-            <div class="container">
-                <div class="header__row">
-                    <ul class="logo">
-                        <li class="logo__list"><a href="/main_page">Coursetica</a></li>
-                    </ul>
-                    <div class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__element"><a href="/main_page">Main</a></li>
-                            <li class="menu__element"><a href="/my_profile">Profile</a></li>
-                            <li class="menu__element"><a href="/courses">Courses</a></li>
-                            <li class="menu__element"><a href="/my_tasks">Tasks</a></li>
-                            <li class="menu__element"><a href="">Chat</a></li>
-                        </ul>
+        <div class="slider">
+            <div class="outer">
+
+                <div class="header">
+                    <div class="container">
+                        <div class="header__row">
+                            <ul class="logo">
+                                <li class="logo__list"><a href="/main_page">Coursetica</a></li>
+                            </ul>
+                            <div class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__element"><a href="/main_page">Main</a></li>
+                                    <li class="menu__element"><a href="/my_profile">Profile</a></li>
+                                    <li class="menu__element"><a href="/courses">Courses</a></li>
+                                    <li class="menu__element"><a href="/my_tasks">Tasks</a></li>
+                                    <li class="menu__element"><a href="">Chat</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="welcome_student">
+                    <div class="container">
+                        <div class="welcome_student__items">
+                            <div class="title">COURSE NAME</div>
+                            <div class="description">Course Info</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="task">
-            <div class="container">
-                <div class="task__name">TASK</div>
-                <div class="task__description">
-                    <div class="task__description-name">Task Name</div>
-                    <div class="task__description-deadline">Deadline is *Task Deadline*</div>
-                    <div class="task__description-instruction">Task Instruction</div>
-                    <div class="task__description-my-work">My Work</div>
-                    <form id="myform" action="/send_task" method="post">
-                        <input id="fileinput" type="file">
-                        <input type="submit" value="Submit">
-                    </form>
+        <div class="courses">
+            <p class="courses__title">My Subject</p>
+            <div class="courses__block">
+                <ul class="courses__list">
+                    <li class="courses__element">
+                        <a href="/subject">
+                            <div class="courses__element-content">
+                                <div class="courses__element-content-img">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="courses__element-content-description">
+                                    <p class="courses__element-content-description-name">
+                                        Subject Name
+                                    </p>
+                                    <p class="courses__element-content-description-info">
+                                        Subject Info
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="welcome_student__button">
+                    <a href="/create_course">Create New</a>
                 </div>
             </div>
         </div>
@@ -97,10 +124,6 @@
     </footer>
 
 </div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="../js/task_script.js"></script>
-
 
 </body>
 

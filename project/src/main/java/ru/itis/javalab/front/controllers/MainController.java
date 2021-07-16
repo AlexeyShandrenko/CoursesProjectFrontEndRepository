@@ -8,7 +8,7 @@ public class MainController {
 
     @GetMapping("/main_page")
     public String getMainPage() {
-        return "index-teacher";
+        return "index-student";
     }
 
 }

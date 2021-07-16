@@ -27,14 +27,14 @@
             <div class="container">
                 <div class="header__row">
                     <ul class="logo">
-                        <li class="logo__list"><a href="index.html">Coursetica</a></li>
+                        <li class="logo__list"><a href="/main_page">Coursetica</a></li>
                     </ul>
                     <div class="menu">
                         <ul class="menu__list">
-                            <li class="menu__element"><a href="index.html">Main</a></li>
-                            <li class="menu__element"><a href="about.html">Profile</a></li>
-                            <li class="menu__element"><a href="services.html">Courses</a></li>
-                            <li class="menu__element"><a href="">Tasks</a></li>
+                            <li class="menu__element"><a href="/main_page">Main</a></li>
+                            <li class="menu__element"><a href="/my_profile">Profile</a></li>
+                            <li class="menu__element"><a href="/courses">Courses</a></li>
+                            <li class="menu__element"><a href="/my_tasks">Tasks</a></li>
                             <li class="menu__element"><a href="">Chat</a></li>
                         </ul>
                     </div>

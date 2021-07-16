@@ -45,7 +45,7 @@
                     </div>
                     <!-- <input type="number" name="age" placeholder="Age"> -->
                     <a href="" class=""><input type="submit" value="Sign Up"></a>
-                    <div class="sign-up"> Have an Account? <a href="login.html" class="sign-up__link">Sign In!</a></div>
+                    <div class="sign-up"> Have an Account? <a href="/login" class="sign-up__link">Sign In!</a></div>
                 </form>
             </div>
         </div>

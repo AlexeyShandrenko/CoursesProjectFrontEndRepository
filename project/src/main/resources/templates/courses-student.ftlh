@@ -30,14 +30,14 @@
                     <div class="container">
                         <div class="header__row">
                             <ul class="logo">
-                                <li class="logo__list"><a href="index.html">Coursetica</a></li>
+                                <li class="logo__list"><a href="/main_page">Coursetica</a></li>
                             </ul>
                             <div class="menu">
                                 <ul class="menu__list">
-                                    <li class="menu__element"><a href="index.html">Main</a></li>
-                                    <li class="menu__element"><a href="about.html">Profile</a></li>
-                                    <li class="menu__element"><a href="services.html">Courses</a></li>
-                                    <li class="menu__element"><a href="">Tasks</a></li>
+                                    <li class="menu__element"><a href="/main_page">Main</a></li>
+                                    <li class="menu__element"><a href="/my_profile">Profile</a></li>
+                                    <li class="menu__element"><a href="/courses">Courses</a></li>
+                                    <li class="menu__element"><a href="/my_tasks">Tasks</a></li>
                                     <li class="menu__element"><a href="">Chat</a></li>
                                 </ul>
                             </div>
@@ -62,75 +62,7 @@
             <div class="courses__block">
                 <ul class="courses__list">
                     <li class="courses__element">
-                        <a href="">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Course Name
-                                    </p>
-                                    <p class="courses__element-content-description-info">
-                                        Course Info
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="courses__element">
-                        <a href="">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Course Name
-                                    </p>
-                                    <p class="courses__element-content-description-info">
-                                        Course Info
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="courses__element">
-                        <a href="">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Course Name
-                                    </p>
-                                    <p class="courses__element-content-description-info">
-                                        Course Info
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="courses__element">
-                        <a href="">
-                            <div class="courses__element-content">
-                                <div class="courses__element-content-img">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="courses__element-content-description">
-                                    <p class="courses__element-content-description-name">
-                                        Course Name
-                                    </p>
-                                    <p class="courses__element-content-description-info">
-                                        Course Info
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="courses__element">
-                        <a href="">
+                        <a href="/course">
                             <div class="courses__element-content">
                                 <div class="courses__element-content-img">
                                     <img src="" alt="">
@@ -148,7 +80,7 @@
                     </li>
                 </ul>
                 <div class="welcome_student__button">
-                    <a href="">Join to Course</a>
+                    <a href="/join_course">Join to Course</a>
                 </div>
             </div>
         </div>
