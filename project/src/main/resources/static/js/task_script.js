@@ -3,12 +3,12 @@ $(function () {
     $("#myform").submit(function(e) {
         e.preventDefault();
 
-        var actionurl = "http://localhost:8080/api/plagiarism/add/task";
+        var actionurl = "http://localhost/anti-plagiarism/api/plagiarism/add/task";
 
         var data = new FormData();
-        data.append("firstName", "firstname");
+        data.append("firstName", "ivan");
         data.append("lastName", "lastname");
-        data.append("studentId", 1);
+        data.append("studentId", 2);
         data.append("email", "mail@gmail.com");
         data.append("themeId", 3);
         data.append("themeName", "Programming");

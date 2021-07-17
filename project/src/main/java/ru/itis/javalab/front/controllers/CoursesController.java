@@ -56,4 +56,9 @@ public class CoursesController {
         return "video";
     }
 
+    @GetMapping("/report")
+    public String getReportPage() {
+        return "report";
+    }
+
 }

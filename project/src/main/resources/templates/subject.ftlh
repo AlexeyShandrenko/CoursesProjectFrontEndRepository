@@ -129,6 +129,28 @@
             </div>
         </div>
 
+        <div class="courses">
+            <p class="courses__title">Reports</p>
+            <div class="courses__block">
+                <ul class="courses__list">
+                    <li class="courses__element">
+                        <a href="/report">
+                            <div class="courses__element-content">
+                                <div class="courses__element-content-img">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="courses__element-content-description">
+                                    <p class="courses__element-content-description-name">
+                                        Report Name
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
 
     </div>
 
